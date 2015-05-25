@@ -40,8 +40,10 @@ module.exports = function(options) {
         included = filter.test(file.path);
       }
 
-      if (!included) {
+      if (included) {
         rename();
+      } else {
+        cb(null, file);
       }
 
     } else {
