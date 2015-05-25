@@ -1,0 +1,11 @@
+{
+  "name": "gulp-rev-keep-original-name",
+  "version": "0.0.1",
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "path": "^0.11.14",
+    "through2": "^0.6.5"
+  }
+}
