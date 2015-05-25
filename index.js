@@ -23,8 +23,8 @@ module.exports = function(options) {
 
         file.path = fpath;
 
-        cb(null, file);
       }
+      cb(null, file);
     }
 
     if (options.include) {
@@ -37,7 +37,7 @@ module.exports = function(options) {
       if (typeof(filter) === 'function') {
         included = filter(file);
       } else if(filter instanceof RegExp) {
-        included = filter.test(file.path);
+        included = filter.test(file.revOrigPath);
       }
 
       if (included) {
