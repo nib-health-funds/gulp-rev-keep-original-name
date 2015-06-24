@@ -4,7 +4,7 @@ Keep the original file name for the rewritten file by [gulp-rev](https://github.
 
 ## Installation
 
-    npm i --save nib-health-funds/gulp-rev-keep-original-name
+    npm i --save gulp-rev-keep-original-name
   
 ## Usage
 
